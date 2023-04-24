@@ -1,0 +1,7 @@
+name = 'SUMANT'
+sid = '22102078'
+branch = 'CIVIL Eng.'
+cg = '9.65'
+print(f'''Hey, {name} Here!
+My SID is {sid}
+I am from {branch} department and my CGPA is {cg}''')
