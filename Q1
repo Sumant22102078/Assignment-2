@@ -1,0 +1,8 @@
+s = "Python is a case sensitive language"
+print('a. ' + str(len(s)))
+print('b. ' + s[::-1])
+x = s[10:26]
+print('c. ' + x)
+print('d. ' + s.replace("a case sensitive","object oriented"))
+print('e. ' + str(s.find('a')))
+print('f. ' + s.replace(' ',''))
