@@ -1,0 +1,7 @@
+a = 56
+b = 10
+print(f'''a. a&b = {str(a&b)}
+b. a|b = {str(a|b)}
+c. a^b = {str(a^b)})
+d. a = {str(a<<2)} and b = {str(b<<2)}
+e. a = {str(a>>2)} and b = {str(b>>4)}''')
