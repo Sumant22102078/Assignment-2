@@ -1,0 +1,9 @@
+a = int(input('Enter length of side 1- '))
+b = int(input('Enter length of side 2- '))
+c = int(input('Enter length of side 3- '))
+if a >= (b+c) or b >= (a+c) or c >= (a+b):
+    print(f'''No
+    Triangle can't be formed with sides {str(a)}, {str(b)} and {str(c)}''')
+else:
+    print(f'''Yes
+    Triangle can be formed with sides {str(a)}, {str(b)} and {str(c)}''')
